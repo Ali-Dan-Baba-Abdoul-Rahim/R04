@@ -9,7 +9,7 @@ Ce projet consiste à développer un shell minimal en C, capable de comprendre e
 - Un historique des commandes
 - La redirection de la sortie standard >
 - L'exécution conditionnelle avec &&
-L'objectif est de mettre en œuvre des concepts fondamentaux de la programmation système : gestion de processus, entrées/sorties, manipulation de chaînes, et modularisation.
+> L'objectif est de mettre en œuvre des concepts fondamentaux de la programmation système : gestion de processus, entrées/sorties, manipulation de chaînes, et modularisation.
 
 # 📌 Objectifs pédagogiques
 - Manipuler les pointeurs et les chaînes de caractères en C
@@ -37,7 +37,7 @@ L'objectif est de mettre en œuvre des concepts fondamentaux de la programmation
 # 🚀 Utilisation
 - Compilation (avec GCC) :
 gcc main.c shell.c utils.c -o minishell
-Exécution :
+- Exécution :
 ./minishell
 
 # 👥 Auteurs
