@@ -37,19 +37,18 @@ Ce projet consiste à développer un shell minimal en C, capable de comprendre e
 # 🚀 Utilisation
 - Compilation (avec GCC) :
 gcc main.c shell.c utils.c -o minishell
-Exécution : ./minishell
+,Exécution : ./minishell
 - Compilation avec un Makefile 
 Un Makefile est fourni pour compiler rapidement le projet.
 il suffit de taper : make
-Cela génère l’exécutable minishell.
-Usage :
+,Cela génère l’exécutable minishell.
 Lancer le shell via : ./minishell
-Ensuite, vous pouvez entrer des commandes comme dans un terminal classique, par exemple :
+,Ensuite, vous pouvez entrer des commandes comme dans un terminal classique, par exemple :
 ls -l
-cd ..
-echo Hello > sortie.txt
-history
-exit
+,cd ..
+,echo Hello > sortie.txt
+,history
+,exit
 
 # 👥 Auteurs
 Projet réalisé dans le cadre de l'apprentissage du langage C.
