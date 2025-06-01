@@ -35,7 +35,8 @@ Ce projet consiste à développer un shell minimal en C, capable de comprendre e
 - Chaînage conditionnel avec && (ex : mkdir test && cd test)
 
 # 🚀 Utilisation
-- Compilation (avec GCC)
+- Compilation (avec GCC) :
+ gcc main.c shell.c utils.c -o minishell
 - Compilation avec un Makefile 
 Ensuite, vous pouvez entrer des commandes comme dans un terminal classique, par exemple :
 ls -l
